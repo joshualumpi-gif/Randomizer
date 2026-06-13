@@ -1,0 +1,10 @@
+name: SimpleRandomizer
+version: 1.1
+main: de.deinname.randomizer.RandomizerPlugin
+api-version: 1.20
+# Wichtig: Damit wir auf die Events zugreifen können
+softdepend: [BasePlugin]
+commands:
+  randomizer:
+    description: Öffnet das Randomizer Menü
+    aliases: [rand, randomize]
